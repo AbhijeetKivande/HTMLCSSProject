@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: bisque;
+}
+#menu a {
+  color: #fff;
+  background-color: #aa9144;
+  display: inline-block;
+  padding: 10px 10px;
+  border: 1px solid green;
+  text-decoration: none;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+#title {
+  margin-top: 50px;
+  background-image: url("./images/post-img-1.jpg");
+  height: auto;
+  /* padding: 15px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  /* position: relative; */
+}
+#title #h1 {
+  color: rgb(245, 246, 242);
+  text-align: left;
+  
+  /* align-items: center; */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+#info {
+  background-color: #f4f1ec;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.form {
+  text-align: center;
+}
+.form p {
+  text-align: left;
+}
+.submit {
+  text-align: left;
+}
+.submit input {
+  border-color: #aa9144;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+.form button {
+  color: white;
+  background-color: #aa9144;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+/* #message{
+      height: 50px;
+      padding: 10px;
+      font-size: 16px;
+  } */
+footer {
+  background-color: rgb(29, 28, 28);
+  color: rgb(245, 234, 221);
+}
+footer rights {
+  text-align: center;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.last button {
+  background-color: #aa9144;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(245, 234, 221);
+}
+.last input {
+  background-color: bisque;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  #title h1 {
+    text-align: left;
+    width: 300px;
+    height: auto;
+  }
+  #title {
+    align-items: center;
+    height: 200px;
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .form {
+    width: 50%;
+  }
+
+  .submit1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .submit {
+    width: 50%;
+  }
+
+  .last {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #title {
+    height: 500px;
+    align-items: center;
+  }
+  #title #h1{
+    padding-left: 500px;
+    padding-top: 100px;
+  }
+  .last {
+    width: 30%;
+  }
+}
